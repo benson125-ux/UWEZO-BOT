@@ -1355,15 +1355,14 @@ zk.ev.on('group-participants.update', async (group) => {
                 await activateCrons();
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
-                let cmsg = `ᴘᴏᴘᴋɪᴅ xᴛᴇᴄʜ ɪs ᴄᴏɴɴᴇᴄᴛᴇᴅ
-
-ᴍᴏᴅᴇ :${md}
-ᴘʀᴇғɪx : [ ${prefixe} ]
-ᴘʟᴜɢɪɴs :456
-ᴅᴇᴠᴇʟᴏᴘᴇʀ : ᴘᴏᴘᴋɪᴅ ᴛᴇᴄʜ 👻
-
-ᴡᴀᴛᴄʜ ᴀʟʟ ᴛᴜᴛᴏʀɪᴀʟs
-youtube.com/@Popkid2024`;
+                let cmsg =`      ╭─────────────━┈⊷ 
+│ *ᴘᴏᴘᴋɪᴅ xᴛᴇᴄʜ ʙᴏᴛ*
+ |─────────────━┈⊷
+│ᴘʀᴇғɪx: * [ ${prefix} *
+│ᴍᴏᴅᴇ: * ${mode}*
+│ʙᴏᴛ ɴᴀᴍᴇ: *ᴘᴏᴘᴋɪᴅ xᴛᴇᴄʜ*
+│ᴏᴡɴᴇʀ : *ᴘᴏᴘᴋɪᴅ😇*
+╰─────────────━┈⊷⁠⁠⁠⁠`;
                 await zk.sendMessage( zk.user.id, { text: cmsg });
                 }
             }
@@ -1486,4 +1485,3 @@ youtube.com/@Popkid2024`;
     });
     main();
 }, 5000);
-
