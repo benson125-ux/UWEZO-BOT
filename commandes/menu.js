@@ -26,7 +26,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 
     let infoMsg = `🎩 *Hello ${nomAuteurMessage}!* 🎩
 ━━━━━━━━━━━━━━━━━━━━
-🚀 *BOT NAME:* 𝐁𝐄𝐍𝐒𝐎𝐍 𝐌𝐃  
+🚀 *BOT NAME:* 𝐔𝐖𝐄𝐙𝐎 𝐌𝐃  
 ━━━━━━━━━━━━━━━━━━━━
 🌍 *SYSTEM INFO:*
 💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
