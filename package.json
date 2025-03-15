@@ -8,10 +8,10 @@
   "description": "",
   "main": "popkid.js",
   "scripts": {
-    "test": "node benson.js",
-    "s": "node benson.js",
-    "toshtech": "pm2 start benson.js --attach",
-    "toshtech": "pm2 start benson.js --attach",
+    "test": "node popkid.js",
+    "s": "node popkid.js",
+    "toshtech": "pm2 start popkid.js --attach",
+    "toshtech": "pm2 start popkid.js --attach",
     "c": "tsc"
   },
   "keywords": [
@@ -75,4 +75,3 @@
     "youtubedl-core": "^4.11.7"
   }
 }
-
